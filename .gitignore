@@ -1,0 +1,23 @@
+# Python caches and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.venv/
+
+# PyInstaller build files (Desktop App)
+build/
+dist/
+*.spec
+
+# Streamlit config (Web App)
+.streamlit/secrets.toml
+
+# App specific generated files (Labels & PDFs)
+Generated_Labels/
+*.pdf
+
+# OS generated files
+.DS_Store
+Thumbs.db
