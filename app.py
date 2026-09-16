@@ -42,9 +42,9 @@ if st.button("Generate & Download PDF", type="primary"):
                         mime="application/pdf"
                     )
                 
-                # Image Preview
+                # Image Preview (Fixed container width attribute)
                 st.markdown("### Label Preview")
-                st.image(img, use_column_width=True)
+                st.image(img, use_container_width=True)
                 
             except Exception as e:
                 st.error(f"An error occurred: {e}")
